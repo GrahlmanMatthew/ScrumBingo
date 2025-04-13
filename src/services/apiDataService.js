@@ -1,6 +1,6 @@
 const editJsonFile = require("edit-json-file");
 
-let file = editJsonFile(`${__dirname}/../../words.json`);
+let file = editJsonFile(`${__dirname}/../words.json`);
 
 // This is needed, cause editJsonFile has trouble managing the same file in multiple files.
 
