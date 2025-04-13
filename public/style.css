@@ -6,16 +6,23 @@ body {
     margin: 0;
     font-family: 'IBMPlexSans', sans-serif;
     font-weight: lighter;
-    background-color: #f8f9fa;
+    background-color: #a4cffa;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
 }
+
 .bingo-container {
     text-align: center;
 }
+
 .bingo-title {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-bottom: 20px;
 }
+
 .bingo-letter {
     font-size: 3em;
     font-weight: bold;
@@ -23,12 +30,14 @@ body {
     font-family: 'Merriweather', sans-serif;
     font-weight: 900;
 }
+
 .bingo-grid {
     display: grid;
     grid-template-columns: repeat(5, 110px);
     grid-template-rows: repeat(5, 110px);
     gap: 5px;
 }
+
 .bingo-cell {
     border: 2px solid #343a40;
     border-radius: 3px;
@@ -46,6 +55,7 @@ body {
     font-size: 14px;
     line-break: loose;
 }
+
 .marked {
     background-color: #343a40;
     color: #ffffff;
