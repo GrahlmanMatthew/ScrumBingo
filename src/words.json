@@ -1,0 +1,319 @@
+{
+  "words": [
+    {
+      "word": "story points",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "works as expected",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "support ticket",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "carry over",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "request",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "roadmap",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "product owner",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "long winded explanation",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "hotfix",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "deployed",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "incident",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "backlog",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "documentation",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "hand over",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "planning",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "spike",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "integration",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "you're on mute",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "uat",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "waiting on review",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "quality gates",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "demo",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "pipeline",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "can you hear me",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "discuss this offline",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "timebox",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "qat",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "no updates",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "align",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "estimate",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "blocker",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "testing",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "priority",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "github",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "any blockers?",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "sprint",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "sharing my screen",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "epic",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "edge case",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "update the ticket",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "capacity",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "feature",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "scope",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "change record",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "production",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "dependency",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "circle back",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "jira",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "monitoring",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "tech debt",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "release",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "logs",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "dev",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "outage",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "in progress",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "ping me",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "story",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "need more time",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "let me get back to you",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "need clarity",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "almost done",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "internet issues",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "waiting for approval",
+      "type": "Field",
+      "time": null
+    }
+  ]
+}
