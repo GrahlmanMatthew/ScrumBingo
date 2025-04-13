@@ -18,3 +18,7 @@ var ip = process.env.IP || 'localhost';
 app.listen(port, ip, () => {
     console.log(`Server is listening on ${ip}:${port}`);
 });
+
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '../public/index.html');
+});
