@@ -314,6 +314,66 @@
       "word": "waiting for approval",
       "type": "Field",
       "time": null
+    },
+    {
+      "word": "late",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "can you repeat that",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "risk",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "off topic conversation",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "any questions",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "awkward silence",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "is ... here?",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "stand up",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "kanban",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "business value",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "refactor",
+      "type": "Field",
+      "time": null
+    },
+    {
+      "word": "learning",
+      "type": "Field",
+      "time": null
     }
   ]
 }
