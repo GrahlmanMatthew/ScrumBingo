@@ -46,10 +46,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
-        cell.addEventListener('contextmenu', (event) => {
-            event.preventDefault();
-            cell.classList.toggle('disabled');
-        });
     };
 
     const showConfetti = (event) => {
@@ -78,24 +74,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const populateBingoGrid = (words) => {
         const grid = document.getElementById('bingoGrid');
-        let freeWord = null;
+        grid.innerHTML = ''; // Clear existing content if any
 
+        let freeWord = null;
         const freeWords = words.filter(word => word.type === 'Free');
         if (freeWords.length > 0) {
             freeWord = freeWords[Math.floor(Math.random() * freeWords.length)];
+        } else {
+            freeWord = { word: "FREE", type: "Free" }; // Fallback
         }
 
-        const nonFreeWords = words.filter(word => word.type !== 'Free' || word.word !== freeWord?.word);
+        const nonFreeWords = words.filter(word => word.type !== 'Free' || word.word !== freeWord.word);
+        const selectedWords = nonFreeWords.slice(0, 24); // 24 non-free cells
 
-        nonFreeWords.slice(0, 24).forEach((wordObj) => {
-            const cell = createBingoCell(wordObj);
-            grid.appendChild(cell);
-        });
-
-        if (freeWord) {
-            const middleCellIndex = 12; 
-            const middleCell = createBingoCell(freeWord);
-            grid.insertBefore(middleCell, grid.children[middleCellIndex]);
+        for (let i = 0; i < 25; i++) {
+            if (i === 12) {
+                // Middle cell: always insert free space
+                const cell = createBingoCell(freeWord);
+                grid.appendChild(cell);
+            } else {
+                const wordObj = selectedWords.shift();
+                const cell = createBingoCell(wordObj);
+                grid.appendChild(cell);
+            }
         }
     };
 
@@ -105,35 +106,6 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     initializeBingoGrid();
-});
-
-// unessesary code
-
-var allowedKeys = {
-    37: 'left',
-    38: 'up',
-    39: 'right',
-    40: 'down',
-    65: 'a',
-    66: 'b'
-};
-  
-var konamiCode = ['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'];
-var konamiCodePosition = 0;
-  
-document.addEventListener('keydown', function(e) {
-    var key = allowedKeys[e.keyCode];
-    var requiredKey = konamiCode[konamiCodePosition];
-  
-    if (key == requiredKey) {
-        konamiCodePosition++;
-        if (konamiCodePosition == konamiCode.length) {
-            fireworkConfetti()
-            konamiCodePosition = 0;
-        }   
-    } else {
-      konamiCodePosition = 0;
-    }
 });
 
 function fireworkConfetti() {
